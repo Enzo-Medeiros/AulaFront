@@ -1,0 +1,29 @@
+<!DOCTYPE html> <!-- A tag DOCTYPE serve pra indicar ao navegador a versão do HTML deve ser usada para renderizar a página -->
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head> <!-- A tag head é o cabecalho da página, ela contem a tag title que é nome ta pagina que aparece na URL, e dentro tem as 2 tags meta que são obrigatórias -->
+        <title>UniversidadeCatolica</title>
+        <meta charset="UTF-8"> <!-- A tag meta serve para definir a codificação que será usada no projeto -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <h1>Católica</h1><!-- A tag h é a tag de título, nesse caso o título principal da pagina -->
+    <h2>Bem vindo a católica</h2><!-- A tag h nesse caso é o segundo título -->
+    <p><strong>Fundamentos da interação humano computador</strong>. Construção de uma interface gráfica simples. Aspectos de
+interação homem-máquina para sistemas multimídia. Usabilidade de Software baseada na ISO 9241. Design
+e projeto de interface focada na experiência do usuário.</p><!-- A tag p é a tag de parágrafo, já a tag stong é para deixar em negrito -->
+    <ul><!-- A tag ul é para criar uma lista -->
+        <li>Disciplina de IHC</li> <!-- A tag li é para criar um ponto em uma lista -->
+                <li>Estamos aprendendno HTML e CSS</li>
+                <li>Turma do 1° semestre do Curso de Ciência da Computação</li>
+                <li>Aluno: Enzo</li>
+        </ul>
+    <figure> <!-- A tag figure é para inserir uma imagem na página -->
+        <img src="image/download.jpeg" alt="download.jpeg"> <!-- A tag img é para selecionar qual imagem será adicionada  -->
+        <figcaption>PNG de um coco</figcaption> <!-- A Tag figcaption é para adicionar uma descrição a imagem -->
+    </figure>
+    
+</html>
